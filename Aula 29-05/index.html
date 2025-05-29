@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Testando Formulário</h1>
+
+    <form>
+        <label for="nomePrincipal">Nome</label>
+        <input class="nome" type="text" id="nomePrincipal"><br>
+        <label for="nomeSecundario">Sobrenome</label>
+        <input class="sobrenome" type="text" id="nomeSecundario"><br>
+
+        <label > Curso:</label><br>
+        <input type="radio" value="TINF" name="curso"><label class="inf" >TINF</label><br>
+        <input type="radio" value="TELE" name="curso"><label class="ele" >TELE</label><br>
+        <input type="radio" value="TCON" name="curso"><label class="con" >TCON</label><br>
+        <input type="radio" value="TADM" name="curso"><label class="adm" >TADM</label><br>
+
+        <br><label> Já estagiou? </label><br>
+        <input type="radio" name="estagio" value="s"><label class="sim">Sim</label><br>
+        <input type="radio" name="estagio" value="s"><label class="nao">Não</label><br>
+
+        <br><label>Diciplina favorita</label>
+        <select name="" id="">
+            <option class="p" value="prog">Programação</option>
+            <option class="p" value="mat">Matemática</option>
+            <option class="p" value="port">Português</option>
+            <option class="p" value="hist">História</option>
+            <option class="p" value="educa">Educação física</option>
+            <option class="p" value="geo">Geografia</option>
+            <option class="p" value="embora">Hora de ir embora</option>
+        </select>
+
+        <br><label>Turno favorito</label><br>
+        <br><input type="checkbox" value="manha"><label class="manha">Manha</label><br>
+        <br><input type="checkbox" value="tarde"><label class="tarde">Tarde</label><br>
+
+        <br><label>Por que escolheu esse curso?</label><br>
+        <br><textarea cols="30" rows="10"></textarea><br>
+
+        <br><button>Enviar</button>
+    </form>
+</body>
+</html>
