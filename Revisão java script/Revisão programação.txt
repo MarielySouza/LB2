@@ -1,0 +1,172 @@
+﻿Revisão
+
+
+1. O que é o retorno NaN em Javascript? Cite um tipo de condição em que este tipo pode ser gerado
+R: Um retorno NaN significa “Not a number” é um retorno que é mostrado quando um valor requerido não é possível de ser mostrado, pois não foi representado ou não foi definido, como por exemplo quando é digitado uma letra no lugar de um número.
+
+
+2. É possível adicionar uma configuração CSS de múltiplas formas em um código HTML. Cite essas formas e dê exemplos de cada uma. Cite também a diferença entre utilizar cada uma dessas formas.
+R: Existem três maneiras principais de adicionar configurações CSS a um código HTML: usando estilos inline, estilos internos e externos. 
+Inline: Adiciona a configuração css dentro da tag html usando o atributo style.(Não é recomendado para documentos maiores pois o torna desorganizado e difícil de manter)
+Interno: Adiciona a configuração css dentro da tag <style> na seção <head> do html. (útil para páginas menores, pois com projetos maiores pode se tornar desorganizado e difícil de manter tbm)
+Externo: Cria um arquivo CSS (com extensão .css), e é linkado no arquivo html na seção <head>. (É prática e recomendada para maioria dos projetos, pois facilita a organização, manutenção e reutilização do código).
+
+
+3. Explique a diferença entre as tags <div> e <span> . Dê exemplos de quando usar cada uma. 
+R:  A principal diferença entre <div> e <span> em HTML reside no seu comportamento padrão de exibição e no tipo de conteúdo que podem conter. <div> ocupa toda a largura disponível e cria uma quebra de linha antes e depois de si, enquanto < span > ocupa apenas o espaço necessário e se comporta como parte da linha de texto.
+
+
+4. Descreva o propósito da tag <head> em um documento HTML e cite pelo menos três elementos que podem estar dentro dela. 
+R: A tag <head> em um documento HTML define a seção de cabeçalho, que contém metadados e informações sobre o documento, mas não é exibida diretamente na página web. 
+
+
+5. Diferencie as listas ordenadas (<ol>) das listas não ordenadas (<ul>). Crie um exemplo de cada.
+R: Em HTML, listas ordenadas e desordenadas são usadas para organizar itens de informação em formato de lista. Listas ordenadas ( <ol> ) são organizadas tipicamente em letras ou números, pois a ordem dos fatores é importante, já as listas não ordenadas (<ul>) são organizadas de forma não numérica, pois sua ordem não é importante, normalmente representadas por marcadores, como pontos.
+
+
+6. O que significa a propriedade display no CSS? Compare o comportamento de block,
+inline e inline-block.
+R:  A propriedade display no CSS, define como um elemento HTML deve ser renderizado  na página. Os valores mais comuns da propriedade display incluem:
+
+
+* Block: O elemento ocupa toda a largura disponível e cria uma quebra de linha antes e depois dele.
+* Inline: O elemento ocupa apenas o espaço necessário para seu conteúdo e não cria quebras de linha.
+* Flex: Define um contêiner flexível, permitindo o alinhamento e distribuição flexível dos elementos filhos (flex items) dentro dele.
+
+
+7. Explique o que é o Box Model no CSS e descreva suas partes de dentro para fora.
+R: O modelo de caixa (box model) no CSS descreve a forma como os elementos HTML são representados e dimensionados no layout de uma página web. E são compostas por quatro elementos principais: conteúdo, preenchimento (padding), borda e margem.
+
+
+1. Conteúdo (Content): É a área onde o conteúdo do elemento é exibido, como texto, imagens, etc. 
+2. Preenchimento (Padding): É o espaço ao redor do conteúdo, entre o conteúdo e a borda. Controla o espaçamento interno do elemento. 
+3. Borda (Border): É a linha que envolve o conteúdo e o preenchimento. Define a aparência visual da caixa e pode ter espessura, estilo e cor. 
+4. Margem (Margin): É o espaço ao redor da borda, fora do elemento. Controla o espaçamento externo entre o elemento e outros elementos da página. 
+Exemplo:
+
+
+8. Qual é a função das tags semânticas no HTML5, como <header>, <section>, <article> e
+<footer>? Dê exemplos de uso.
+R: as tags semânticas fornecem significado estrutural ao conteúdo, tornando o código mais legível e a página mais compreensível para navegadores, mecanismos de busca e dispositivos de acessibilidade. Elas descrevem o propósito de cada elemento na página, em vez de apenas agrupá-los com tags genéricas como <div>.
+
+
+<header>:
+Representa o cabeçalho de um documento ou seção, contendo elementos de navegação, títulos (h1 a h6), entre outros.
+
+
+<section>:
+Define uma seção dentro do documento.
+
+
+<article>:
+Representa um conteúdo independente e auto-suficiente, como um artigo de blog ou notícia.
+
+
+<footer>:
+Representa o rodapé da página, normalmente contém informações sobre o autor, links para contato entre outros.
+
+
+9. Explique o que é e para que serve o atributo target="_blank" em um link. Quais cuidados
+de segurança devem ser tomados ao utilizá-lo?
+R: O atributo target="_blank" em um link HTML faz com que o link seja aberto em uma nova aba ou janela do navegador, em vez de substituir a página atual no mesmo espaço.
+
+
+10. O que é a propriedade flex no CSS e como ela é usada?
+R: A propriedade flex no CSS é uma propriedade abreviada que define o tamanho flexível dos itens dentro de um contêiner flexível. Ela combina três propriedades em uma só: flex-grow, flex-shrink e flex-basis. Essas propriedades controlam como um item flexível se comporta quando o contêiner tem espaço disponível ou quando ele precisa ser reduzido para caber no contêiner.
+
+
+11. O que são transições (transition) no CSS e como podem ser usadas para criar efeitos de
+animação simples? Crie um exemplo básico.
+R: Em CSS, as transições (transitions) permitem que você altere o valor de uma propriedade de forma gradual e suave, ao invés de uma mudança instantânea. Elas são usadas para criar efeitos de animação simples quando um elemento muda de estado, como ao passar o mouse sobre ele (hover) ou quando um elemento recebe foco (focus).
+
+
+12. Crie um objeto com informações de um produto (nome, preco, emEstoque). Se
+emEstoque for true, exiba "Produto disponível"; caso contrário, "Produto indisponível".
+
+
+13. Crie um objeto pessoa com os atributos nome, peso, altura e temperatura. Faça uma
+saída que verifica se essa pessoa está ou não com febre.
+
+
+14. Crie 2 objetos do tipo livro e peça ao usuário para preenche-los. Depois, imprima na tela
+o livro com autoria mais antiga, o livro com mais páginas e o livro com autor brasileiro
+(caso haja).
+
+
+15. Crie um objeto filme que receba do usuário seu nome e classificação. Em seguida,
+imprima os dados desse filme, informando sua faixa etária classificatória.
+
+
+16. Quais as diferenças entre criar uma variável do tipo const, var e let? Cite exemplos.
+R: Em JavaScript, var, let e const são usados para declarar variáveis, mas possuem diferenças cruciais em seus escopos e reatribuições:
+var:
+Escopo: Escopo de função (global dentro da função) ou global (fora de funções). 
+Reatribuição: Permite reatribuição e redeclaração dentro do mesmo escopo. 
+Comportamento: Variáveis var são içadas (hoisted), ou seja, declaradas no topo do escopo, mas inicializadas como undefined. 
+
+
+let:
+Escopo: Escopo de bloco (limitado a {}), mais restrito que var. 
+Reatribuição: Permite reatribuição, mas não redeclaração dentro do mesmo escopo. 
+Comportamento: Variáveis let também são içadas, mas não são inicializadas, lançando um erro se acessadas antes da declaração. 
+
+
+const:
+Escopo: Escopo de bloco, como let. 
+Reatribuição: Não permite reatribuição ou redeclaração, o valor é constante após a inicialização. 
+Comportamento: Variáveis const também são içadas e não inicializadas, lançando erro se acessadas antes da declaração
+
+
+17. Responda no console o que será impresso ou qual erro ocorrerá.
+R: 1) x = undefined
+15
+25
+30
+100
+ 200
+300
+100
+number
+undefined
+var da função
+let da função
+const da função
+string
+undefined
+undefined
+
+
+
+
+18. Qual a diferença entre JavaScript e Java?
+R: Java é uma linguagem de propósito geral, compilada e usada para desenvolvimento de aplicações em diversas plataformas, incluindo back-end, aplicativos Android e sistemas complexos. Já JavaScript é uma linguagem de script, interpretada e usada principalmente para desenvolvimento front-end web, adicionando interatividade e dinamismo às páginas
+
+
+19. Qual a diferença entre == e === no JavaScript? Dê exemplos práticos.
+R: Em JavaScript, == e === são operadores de comparação, mas com diferenças cruciais na forma como realizam essa comparação. O operador == realiza uma comparação "ampla", onde ocorre a conversão de tipo antes da comparação, enquanto o === compara se os valores são idênticos e tipos de conversão.
+
+
+20. O que são operadores lógicos (&&, ||, !) e como eles podem ser usados em condicionais?Exemplifique.
+R: Em programação, operadores lógicos são usados para combinar ou modificar expressões booleanas (que resultam em verdadeiro ou falso). Os operadores mais comuns são && (AND), || (OR) e ! (NOT). Eles são cruciais em condicionais para controlar o fluxo do programa com base em múltiplas condições
+
+
+21. É possível adicionar novas propriedades a um objeto depois de criado? Como?
+R: Sim, em JavaScript, é possível adicionar novas propriedades a um objeto mesmo depois de ele ter sido criado. Diferente de outras linguagens, como Java ou C#, onde as estruturas de objetos são mais rígidas, o JavaScript permite que você adicione, modifique ou remova propriedades a qualquer momento.
+
+
+22. Qual a diferença entre null e undefined no JavaScript?
+R: Em JavaScript, tanto null quanto undefined representam a ausência de um valor, mas de maneiras diferentes. undefined significa que uma variável foi declarada, mas não recebeu nenhum valor explicitamente atribuído, enquanto null é um valor atribuído intencionalmente para indicar que uma variável não possui um objeto associado.
+
+
+23. O que é um objeto em JavaScript e como ele é declarado? Dê um exemplo básico.
+R: Em JavaScript, um objeto é uma coleção de propriedades, onde cada propriedade é um par chave-valor. Objetos são usados para modelar entidades do mundo real ou conceitos abstratos, encapsulando dados relacionados e, opcionalmente, ações que podem ser realizadas com esses dados.
+
+
+24. Crie um programa em JS que defina 2 objetos pokemãos, leia os dados desses objetos
+assumindo que possuem, id, nome, tipo(agua, fogo ou terra) e poder(sortear um valor
+entre 1 e 10 preenchido automático). Logo em seguida, coloque esses dois pokemãos
+para batalhar e apresente na tela o resultado da luta. Caso um dos pokemãos tenha
+vantagem elemental de tipo sobre o outro, respeitando (agua ganha de fogo, fogo ganha
+de terra, terra ganha de agua), o pokemão que possui vantagem deve ganhar 3 pontos
+de poder durante o calculo do resultado da luta.
+25. Revise todas as atividades desenvolvidas e armazenadas no github sobre html e css.
