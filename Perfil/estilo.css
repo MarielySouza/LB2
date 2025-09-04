@@ -1,0 +1,18 @@
+.fotoperfil{
+    border-radius: 50%;
+    width:200px;
+}
+
+.perfil{
+    background-color: rgb(218, 230, 255);
+    max-width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    justify-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
